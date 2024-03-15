@@ -1,0 +1,37 @@
+06:43:55.826498 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [S], seq 4020220371, win 62377, options [mss 8911,sackOK,TS val 748744304 ecr 0,nop,wscale 7], length 0
+06:43:55.827421 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [S.], seq 4069020596, ack 4020220372, win 62293, options [mss 8911,sackOK,TS val 1147894624 ecr 748744304,nop,wscale 7], length 0
+06:43:55.827435 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 1, win 488, options [nop,nop,TS val 748744304 ecr 1147894624], length 0
+06:43:55.827530 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [P.], seq 1:1219, ack 1, win 488, options [nop,nop,TS val 748744305 ecr 1147894624], length 1218: HTTP: POST /__internal/passportRpc/authenticateUser HTTP/1.1
+06:43:55.828265 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147894625 ecr 748744305], length 0
+
+[PUSH]
+06:43:55.837525 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [P.], seq 1:4547, ack 1219, win 478, options [nop,nop,TS val 1147894634 ecr 748744305], length 4546: HTTP: HTTP/1.1 200 OK
+06:43:55.837541 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4547, win 453, options [nop,nop,TS val 748744315 ecr 1147894634], length 0
+
+// libuv tcp keepalive, 1 per second
+06:43:56.842875 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4547, win 453, options [nop,nop,TS val 748745320 ecr 1147894634], length 0
+06:43:56.843783 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147895640 ecr 748744315], length 0
+06:43:57.866877 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4547, win 453, options [nop,nop,TS val 748746344 ecr 1147895640], length 0
+06:43:57.867706 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147896664 ecr 748744315], length 0
+06:43:58.890884 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4547, win 453, options [nop,nop,TS val 748747368 ecr 1147896664], length 0
+06:43:58.891739 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147897688 ecr 748744315], length 0
+06:43:59.914882 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4547, win 453, options [nop,nop,TS val 748748392 ecr 1147897688], length 0
+06:43:59.915742 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147898712 ecr 748744315], length 0
+
+[FIN]
+06:44:00.842789 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [F.], seq 4547, ack 1219, win 478, options [nop,nop,TS val 1147899639 ecr 748744315], length 0
+
+// libuv tcp keepalive, 1 per second
+06:44:00.882886 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4548, win 453, options [nop,nop,TS val 748749360 ecr 1147899639], length 0
+06:44:01.866885 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4548, win 453, options [nop,nop,TS val 748750344 ecr 1147899639], length 0
+06:44:01.872551 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147900669 ecr 748749360], length 0
+06:44:02.890885 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4548, win 453, options [nop,nop,TS val 748751368 ecr 1147900669], length 0
+06:44:02.892047 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147901689 ecr 748749360], length 0
+06:44:03.914878 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [.], ack 4548, win 453, options [nop,nop,TS val 748752392 ecr 1147901689], length 0
+06:44:03.915830 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [.], ack 1219, win 478, options [nop,nop,TS val 1147902712 ecr 748749360], length 0
+
+[PUSH]
+06:44:04.767343 IP pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810 > 10.0.179.20.http-alt: Flags [P.], seq 1219:1746, ack 4548, win 453, options [nop,nop,TS val 748753244 ecr 1147902712], length 527: HTTP: POST /__internal/userRpc/getActiveUsersResponseByPageIndex HTTP/1.1
+
+[RST]
+06:44:04.768255 IP 10.0.179.20.http-alt > pc-testhub-gaea-api-test-5678955c4f-2bcdk.37810: Flags [R], seq 4069025144, win 0, length 0

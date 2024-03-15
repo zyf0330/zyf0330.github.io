@@ -1,0 +1,892 @@
+NET 81031: _read
+NET 81031: onconnection
+NET 81031: _read
+NET 81031: Socket._handle.readStart
+HTTP 81031: SERVER new http connection
+HTTP 81031: requestTimeout timer moved to req
+HTTP 81031: SERVER socketOnParserExecute 65482
+HTTP 81031: call onSocket 0 0
+HTTP 81031: createConnection localhost:10011: {
+  _events: [Object: null prototype] {
+    error: [Function: bound ],
+    complete: [Function: bound ],
+    pipe: [Function (anonymous)]
+  },
+  _eventsCount: 3,
+  _maxListeners: undefined,
+  method: 'POST',
+  body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+  forever: true,
+  headers: { encoder: 'bson', host: 'localhost:10011', 'content-length': 1053 },
+  encoding: null,
+  uri: Url {
+    protocol: 'http:',
+    slashes: true,
+    auth: null,
+    host: 'localhost:10011',
+    port: '10011',
+    hostname: 'localhost',
+    hash: null,
+    search: null,
+    query: null,
+    pathname: '/__internal/passportRpc/authenticateUser',
+    path: '/__internal/passportRpc/authenticateUser',
+    href: 'http://localhost:10011/__internal/passportRpc/authenticateUser'
+  },
+  readable: true,
+  writable: true,
+  explicitMethod: true,
+  _qs: <ref *1> Querystring {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Circular *1],
+      _auth: [Auth],
+      _oauth: [OAuth],
+      _multipart: [Multipart],
+      _redirect: [Redirect],
+      _tunnel: [Tunnel],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    lib: {
+      formats: [Object],
+      parse: [Function (anonymous)],
+      stringify: [Function (anonymous)]
+    },
+    useQuerystring: undefined,
+    parseOptions: {},
+    stringifyOptions: {}
+  },
+  _auth: <ref *2> Auth {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Querystring],
+      _auth: [Circular *2],
+      _oauth: [OAuth],
+      _multipart: [Multipart],
+      _redirect: [Redirect],
+      _tunnel: [Tunnel],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    hasAuth: false,
+    sentAuth: false,
+    bearerToken: null,
+    user: null,
+    pass: null
+  },
+  _oauth: <ref *3> OAuth {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Querystring],
+      _auth: [Auth],
+      _oauth: [Circular *3],
+      _multipart: [Multipart],
+      _redirect: [Redirect],
+      _tunnel: [Tunnel],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    params: null
+  },
+  _multipart: <ref *4> Multipart {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Querystring],
+      _auth: [Auth],
+      _oauth: [OAuth],
+      _multipart: [Circular *4],
+      _redirect: [Redirect],
+      _tunnel: [Tunnel],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    boundary: '3fbed29b-e3a0-444d-b1c7-219a5123bd43',
+    chunked: false,
+    body: null
+  },
+  _redirect: <ref *5> Redirect {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Querystring],
+      _auth: [Auth],
+      _oauth: [OAuth],
+      _multipart: [Multipart],
+      _redirect: [Circular *5],
+      _tunnel: [Tunnel],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    followRedirect: true,
+    followRedirects: true,
+    followAllRedirects: false,
+    followOriginalHttpMethod: false,
+    allowRedirect: [Function (anonymous)],
+    maxRedirects: 10,
+    redirects: [],
+    redirectsFollowed: 0,
+    removeRefererHeader: false
+  },
+  _tunnel: <ref *6> Tunnel {
+    request: Request {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: [Url],
+      readable: true,
+      writable: true,
+      explicitMethod: true,
+      _qs: [Querystring],
+      _auth: [Auth],
+      _oauth: [OAuth],
+      _multipart: [Multipart],
+      _redirect: [Redirect],
+      _tunnel: [Circular *6],
+      _rp_resolve: [Function (anonymous)],
+      _rp_reject: [Function (anonymous)],
+      _rp_promise: [Promise [Object]],
+      _rp_callbackOrig: undefined,
+      callback: [Function (anonymous)],
+      _rp_options: [Object],
+      setHeader: [Function (anonymous)],
+      hasHeader: [Function (anonymous)],
+      getHeader: [Function (anonymous)],
+      removeHeader: [Function (anonymous)],
+      localAddress: undefined,
+      pool: [Object],
+      dests: [],
+      __isRequestRequest: true,
+      _callback: [Function: RP$callback],
+      proxy: null,
+      tunnel: false,
+      setHost: true,
+      originalCookieHeader: undefined,
+      _disableCookies: true,
+      _jar: undefined,
+      port: '10011',
+      host: 'localhost',
+      path: '/__internal/passportRpc/authenticateUser',
+      httpModule: [Object],
+      agentClass: [Function],
+      agentOptions: [Object],
+      agent: [Agent],
+      _started: true,
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      [Symbol(kCapture)]: false
+    },
+    proxyHeaderWhiteList: [
+      'accept',           'accept-charset',
+      'accept-encoding',  'accept-language',
+      'accept-ranges',    'cache-control',
+      'content-encoding', 'content-language',
+      'content-location', 'content-md5',
+      'content-range',    'content-type',
+      'connection',       'date',
+      'expect',           'max-forwards',
+      'pragma',           'referer',
+      'te',               'user-agent',
+      'via'
+    ],
+    proxyHeaderExclusiveList: []
+  },
+  _rp_resolve: [Function (anonymous)],
+  _rp_reject: [Function (anonymous)],
+  _rp_promise: <ref *7> Promise [Object] {
+    _bitField: 1,
+    _fulfillmentHandler0: [Function (anonymous)],
+    _rejectionHandler0: [Function (anonymous)],
+    _promise0: Promise [Object] {
+      _bitField: 0,
+      _fulfillmentHandler0: undefined,
+      _rejectionHandler0: undefined,
+      _promise0: undefined,
+      _receiver0: undefined,
+      _cancellationParent: [Circular *7]
+    },
+    _receiver0: undefined,
+    _onCancelField: [Function (anonymous)],
+    _branchesRemainingToCancel: 1
+  },
+  _rp_callbackOrig: undefined,
+  callback: [Function (anonymous)],
+  _rp_options: {
+    method: 'POST',
+    body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+    json: false,
+    forever: true,
+    headers: { encoder: 'bson' },
+    encoding: null,
+    timeout: 60000,
+    uri: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+    callback: [Function: RP$callback],
+    transform: undefined,
+    simple: true,
+    resolveWithFullResponse: false,
+    transform2xxOnly: false
+  },
+  setHeader: [Function (anonymous)],
+  hasHeader: [Function (anonymous)],
+  getHeader: [Function (anonymous)],
+  removeHeader: [Function (anonymous)],
+  localAddress: undefined,
+  pool: {
+    'http:': Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: -2,
+      [Symbol(kCapture)]: false
+    }
+  },
+  dests: [],
+  __isRequestRequest: true,
+  _callback: [Function: RP$callback],
+  proxy: null,
+  tunnel: false,
+  setHost: true,
+  originalCookieHeader: undefined,
+  _disableCookies: true,
+  _jar: undefined,
+  port: '10011',
+  host: 'localhost',
+  path: null,
+  httpModule: {
+    _connectionListener: [Function: connectionListener],
+    METHODS: [
+      'ACL',        'BIND',        'CHECKOUT',
+      'CONNECT',    'COPY',        'DELETE',
+      'GET',        'HEAD',        'LINK',
+      'LOCK',       'M-SEARCH',    'MERGE',
+      'MKACTIVITY', 'MKCALENDAR',  'MKCOL',
+      'MOVE',       'NOTIFY',      'OPTIONS',
+      'PATCH',      'POST',        'PRI',
+      'PROPFIND',   'PROPPATCH',   'PURGE',
+      'PUT',        'REBIND',      'REPORT',
+      'SEARCH',     'SOURCE',      'SUBSCRIBE',
+      'TRACE',      'UNBIND',      'UNLINK',
+      'UNLOCK',     'UNSUBSCRIBE'
+    ],
+    STATUS_CODES: {
+      '100': 'Continue',
+      '101': 'Switching Protocols',
+      '102': 'Processing',
+      '103': 'Early Hints',
+      '200': 'OK',
+      '201': 'Created',
+      '202': 'Accepted',
+      '203': 'Non-Authoritative Information',
+      '204': 'No Content',
+      '205': 'Reset Content',
+      '206': 'Partial Content',
+      '207': 'Multi-Status',
+      '208': 'Already Reported',
+      '226': 'IM Used',
+      '300': 'Multiple Choices',
+      '301': 'Moved Permanently',
+      '302': 'Found',
+      '303': 'See Other',
+      '304': 'Not Modified',
+      '305': 'Use Proxy',
+      '307': 'Temporary Redirect',
+      '308': 'Permanent Redirect',
+      '400': 'Bad Request',
+      '401': 'Unauthorized',
+      '402': 'Payment Required',
+      '403': 'Forbidden',
+      '404': 'Not Found',
+      '405': 'Method Not Allowed',
+      '406': 'Not Acceptable',
+      '407': 'Proxy Authentication Required',
+      '408': 'Request Timeout',
+      '409': 'Conflict',
+      '410': 'Gone',
+      '411': 'Length Required',
+      '412': 'Precondition Failed',
+      '413': 'Payload Too Large',
+      '414': 'URI Too Long',
+      '415': 'Unsupported Media Type',
+      '416': 'Range Not Satisfiable',
+      '417': 'Expectation Failed',
+      '418': "I'm a Teapot",
+      '421': 'Misdirected Request',
+      '422': 'Unprocessable Entity',
+      '423': 'Locked',
+      '424': 'Failed Dependency',
+      '425': 'Too Early',
+      '426': 'Upgrade Required',
+      '428': 'Precondition Required',
+      '429': 'Too Many Requests',
+      '431': 'Request Header Fields Too Large',
+      '451': 'Unavailable For Legal Reasons',
+      '500': 'Internal Server Error',
+      '501': 'Not Implemented',
+      '502': 'Bad Gateway',
+      '503': 'Service Unavailable',
+      '504': 'Gateway Timeout',
+      '505': 'HTTP Version Not Supported',
+      '506': 'Variant Also Negotiates',
+      '507': 'Insufficient Storage',
+      '508': 'Loop Detected',
+      '509': 'Bandwidth Limit Exceeded',
+      '510': 'Not Extended',
+      '511': 'Network Authentication Required'
+    },
+    Agent: [Function: Agent] { defaultMaxSockets: Infinity },
+    ClientRequest: [Function: ClientRequest],
+    IncomingMessage: [Function: IncomingMessage],
+    OutgoingMessage: [Function: OutgoingMessage],
+    Server: [Function: Server],
+    ServerResponse: [Function: ServerResponse],
+    createServer: [Function: createServer],
+    validateHeaderName: [Function: hidden],
+    validateHeaderValue: [Function: hidden],
+    get: [Function: get],
+    request: [Function: request],
+    maxHeaderSize: [Getter],
+    globalAgent: [Getter/Setter]
+  },
+  agentClass: [Function: Agent] { defaultMaxSockets: Infinity },
+  agentOptions: { keepAlive: true },
+  agent: Agent {
+    _events: [Object: null prototype] {
+      free: [Function (anonymous)],
+      newListener: [Function: maybeEnableKeylog]
+    },
+    _eventsCount: 2,
+    _maxListeners: undefined,
+    defaultPort: 80,
+    protocol: 'http:',
+    options: { keepAlive: true, path: null },
+    requests: {},
+    sockets: { 'localhost:10011:': [] },
+    freeSockets: {},
+    keepAliveMsecs: 1000,
+    keepAlive: true,
+    maxSockets: Infinity,
+    maxFreeSockets: 256,
+    scheduling: 'lifo',
+    maxTotalSockets: Infinity,
+    totalSocketCount: -2,
+    [Symbol(kCapture)]: false
+  },
+  _started: true,
+  href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+  keepAlive: true,
+  servername: 'localhost',
+  _agentKey: 'localhost:10011:'
+}
+NET 81031: createConnection [
+  {
+    _events: [Object: null prototype] {
+      error: [Function: bound ],
+      complete: [Function: bound ],
+      pipe: [Function (anonymous)]
+    },
+    _eventsCount: 3,
+    _maxListeners: undefined,
+    method: 'POST',
+    body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+    forever: true,
+    headers: {
+      encoder: 'bson',
+      host: 'localhost:10011',
+      'content-length': 1053
+    },
+    encoding: null,
+    uri: Url {
+      protocol: 'http:',
+      slashes: true,
+      auth: null,
+      host: 'localhost:10011',
+      port: '10011',
+      hostname: 'localhost',
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/__internal/passportRpc/authenticateUser',
+      path: '/__internal/passportRpc/authenticateUser',
+      href: 'http://localhost:10011/__internal/passportRpc/authenticateUser'
+    },
+    readable: true,
+    writable: true,
+    explicitMethod: true,
+    _qs: Querystring {
+      request: [Request],
+      lib: [Object],
+      useQuerystring: undefined,
+      parseOptions: {},
+      stringifyOptions: {}
+    },
+    _auth: Auth {
+      request: [Request],
+      hasAuth: false,
+      sentAuth: false,
+      bearerToken: null,
+      user: null,
+      pass: null
+    },
+    _oauth: OAuth { request: [Request], params: null },
+    _multipart: Multipart {
+      request: [Request],
+      boundary: '3fbed29b-e3a0-444d-b1c7-219a5123bd43',
+      chunked: false,
+      body: null
+    },
+    _redirect: Redirect {
+      request: [Request],
+      followRedirect: true,
+      followRedirects: true,
+      followAllRedirects: false,
+      followOriginalHttpMethod: false,
+      allowRedirect: [Function (anonymous)],
+      maxRedirects: 10,
+      redirects: [],
+      redirectsFollowed: 0,
+      removeRefererHeader: false
+    },
+    _tunnel: Tunnel {
+      request: [Request],
+      proxyHeaderWhiteList: [Array],
+      proxyHeaderExclusiveList: []
+    },
+    _rp_resolve: [Function (anonymous)],
+    _rp_reject: [Function (anonymous)],
+    _rp_promise: Promise [Object] {
+      _bitField: 1,
+      _fulfillmentHandler0: [Function (anonymous)],
+      _rejectionHandler0: [Function (anonymous)],
+      _promise0: [Promise [Object]],
+      _receiver0: undefined,
+      _onCancelField: [Function (anonymous)],
+      _branchesRemainingToCancel: 1
+    },
+    _rp_callbackOrig: undefined,
+    callback: [Function (anonymous)],
+    _rp_options: {
+      method: 'POST',
+      body: <Buffer 1d 04 00 00 03 63 74 78 00 9c 00 00 00 02 72 65 71 75 65 73 74 49 64 00 25 00 00 00 61 39 32 65 34 34 32 66 2d 37 64 62 63 2d 34 33 30 62 2d 39 37 63 ... 1003 more bytes>,
+      json: false,
+      forever: true,
+      headers: [Object],
+      encoding: null,
+      timeout: 60000,
+      uri: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+      callback: [Function: RP$callback],
+      transform: undefined,
+      simple: true,
+      resolveWithFullResponse: false,
+      transform2xxOnly: false
+    },
+    setHeader: [Function (anonymous)],
+    hasHeader: [Function (anonymous)],
+    getHeader: [Function (anonymous)],
+    removeHeader: [Function (anonymous)],
+    localAddress: undefined,
+    pool: { 'http:': [Agent] },
+    dests: [],
+    __isRequestRequest: true,
+    _callback: [Function: RP$callback],
+    proxy: null,
+    tunnel: false,
+    setHost: true,
+    originalCookieHeader: undefined,
+    _disableCookies: true,
+    _jar: undefined,
+    port: '10011',
+    host: 'localhost',
+    path: null,
+    httpModule: {
+      _connectionListener: [Function: connectionListener],
+      METHODS: [Array],
+      STATUS_CODES: [Object],
+      Agent: [Function],
+      ClientRequest: [Function: ClientRequest],
+      IncomingMessage: [Function: IncomingMessage],
+      OutgoingMessage: [Function: OutgoingMessage],
+      Server: [Function: Server],
+      ServerResponse: [Function: ServerResponse],
+      createServer: [Function: createServer],
+      validateHeaderName: [Function: hidden],
+      validateHeaderValue: [Function: hidden],
+      get: [Function: get],
+      request: [Function: request],
+      maxHeaderSize: [Getter],
+      globalAgent: [Getter/Setter]
+    },
+    agentClass: [Function: Agent] { defaultMaxSockets: Infinity },
+    agentOptions: { keepAlive: true },
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object],
+      requests: {},
+      sockets: [Object],
+      freeSockets: {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: -2,
+      [Symbol(kCapture)]: false
+    },
+    _started: true,
+    href: 'http://localhost:10011/__internal/passportRpc/authenticateUser',
+    keepAlive: true,
+    servername: 'localhost',
+    _agentKey: 'localhost:10011:'
+  },
+  [Function (anonymous)],
+  [Symbol(normalizedArgs)]: true
+]
+NET 81031: pipe false null
+NET 81031: connect: find host localhost
+NET 81031: connect: dns options { family: undefined, hints: 32 }
+HTTP 81031: sockets localhost:10011: 1 -1
+HTTP 81031: write ret = true
+HTTP 81031: outgoing message end.
+NET 81031: _read
+NET 81031: _read wait for connection
+NET 81031: afterConnect
+NET 81031: _read
+NET 81031: Socket._handle.readStart
+NET 81031: _read
+HTTP 81031: requestTimeout timer moved to req
+HTTP 81031: AGENT incoming response!
+NET 81031: _read
+HTTP 81031: AGENT socket keep-alive
+HTTP 81031: CLIENT socket onFree
+HTTP 81031: agent.on(free) localhost:10011:
+HTTP 81031: removeSocket localhost:10011: writable: true
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+(node:81031) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+HTTP 81031: SERVER socketOnParserExecute 23443
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+NET 81031: _read
+HTTP 81031: have free socket
+HTTP 81031: write ret = true
+HTTP 81031: outgoing message end.
+HTTP 81031: requestTimeout timer moved to req
+HTTP 81031: AGENT incoming response!
+NET 81031: _read
+HTTP 81031: AGENT socket keep-alive
+HTTP 81031: CLIENT socket onFree
+HTTP 81031: agent.on(free) localhost:10011:
+HTTP 81031: removeSocket localhost:10011: writable: true
+NET 81031: _read
+{"date":"2021-11-02 17:44:29","method":"POST","url":"/api/testhub/test-libraries/6178c4928f8a90f0539939c3/test-case/import-validate","referer":"unknown","oid":"b19ed273-6c53-443a-a31f-33ef8eba400e","client":"web","userAgent":"unknown","freememStart":346742784,"hostname":"zyf-main","pid":81031,"start":1635846269653,"statusCode":200,"uid":"52b9af20da8a4969aab88092d1fa64ce","teamId":"5db7a0ed77c86b2d749605ad","end":1635846271432,"resTime":1779,"freememEnd":330805248,"apiMemoryUsed":15937536,"path":"/api/testhub/test-libraries/6178c4928f8a90f0539939c3/test-case/import-validate","level":"info","message":"/api/testhub/test-libraries/6178c4928f8a90f0539939c3/test-case/import-validate from [api-logger]"}
+HTTP 81031: write ret = false
+HTTP 81031: outgoing message end.
+
+
+
+// HERE
+/* end normally */
+NET 81031: _final: not ended, call shutdown()
+
+
+NET 81031: destroy
+NET 81031: close
+NET 81031: close handle
+NET 81031: has server
+NET 81031: SERVER _emitCloseIfDrained
+NET 81031: SERVER handle? true   connections? 0
+NET 81031: afterShutdown destroyed=true ReadableState {
+  objectMode: false,
+  highWaterMark: 16384,
+  buffer: BufferList { head: null, tail: null, length: 0 },
+  length: 0,
+  pipes: [],
+  flowing: true,
+  ended: true,
+  endEmitted: true,
+  reading: false,
+  sync: false,
+  needReadable: false,
+  emittedReadable: false,
+  readableListening: false,
+  resumeScheduled: false,
+  errorEmitted: false,
+  emitClose: false,
+  autoDestroy: false,
+  destroyed: true,
+  errored: null,
+  closed: true,
+  closeEmitted: true,
+  defaultEncoding: 'utf8',
+  awaitDrainWriters: null,
+  multiAwaitDrain: false,
+  readingMore: false,
+  decoder: null,
+  encoding: null,
+  [Symbol(kPaused)]: false
+}
+NET 81031: emit close
+HTTP 81031: server socket close
+^CWaiting for the debugger to disconnect...
+
+Process finished with exit code 130 (interrupted by signal 2: SIGINT)
+

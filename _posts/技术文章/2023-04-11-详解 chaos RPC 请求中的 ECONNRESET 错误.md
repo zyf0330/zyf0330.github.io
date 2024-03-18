@@ -166,7 +166,7 @@ batchRequest(true)
 
 具体就是这段代码，一段同步代码逻辑阻塞了整个 js 线程，整整8s左右。
 
-![[b71aa2a3-79ed-4954-8678-4ce3917b11b4.png]]
+![b71aa2a3-79ed-4954-8678-4ce3917b11b4](/attachments/b71aa2a3-79ed-4954-8678-4ce3917b11b4.png)
 
 尽管让 rpc server 关闭 keepAliveTimeout 也可以解决这个问题，但是那不是正确的解决之道，最好是优化这块的代码逻辑或者是产品体验。
 

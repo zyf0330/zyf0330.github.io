@@ -11,16 +11,16 @@ category: 研发效率
 
 将指针焦点放到函数上，按 Double-Shift，输入 call hierarchy，回车即可打开 Call Hierarchy 视图。
 ﻿
-![](../attachments/Pasted%20image%2020240315124526.png)
+![](/attachments/Pasted%20image%2020240315124526.png)
 
 ﻿从列表中，可以容易地看到哪些 Facade API 和 Service 使用了这个方法，来确定改动的影响范围。
 ﻿
-![](../attachments/Pasted%20image%2020240315124535.png)
+![](/attachments/Pasted%20image%2020240315124535.png)
 
 
 ﻿除了能查看调用者 caller 的层次，还能查看被调用者 callee 的层次。点击工具栏中的第二个按钮即可切换。
 ﻿
-![](../attachments/Pasted%20image%2020240315124543.png)
+![](/attachments/Pasted%20image%2020240315124543.png)
 
 
 看起来是不是很清晰。

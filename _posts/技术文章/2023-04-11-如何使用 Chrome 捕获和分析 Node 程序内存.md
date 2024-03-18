@@ -42,7 +42,7 @@ category: 技术文章
 
 之前启动的 DevTools 的第一个标签页是 Connection，在这里将 node 进程的 inspector 地址和端口填上，就会自动连接过去。
 
-![](../attachments/Pasted%20image%2020240315130231.png)
+![](/attachments/Pasted%20image%2020240315130231.png)
 
 ### 查看实时内存使用情况
 
@@ -72,7 +72,7 @@ DevTools 提供了三种捕获内存快照的类型：
 并且能看到不同内存大小时，程序在执行什么函数。
 
 
-![](../attachments/Pasted%20image%2020240315130242.png)
+![](/attachments/Pasted%20image%2020240315130242.png)
 
 
 

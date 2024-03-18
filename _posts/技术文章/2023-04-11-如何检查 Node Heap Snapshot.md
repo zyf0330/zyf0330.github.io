@@ -94,7 +94,7 @@ FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memo
 这是一个利用定时循环不断生成新对象程序产生的 heapsnapshot [memory-leak-demo](memory-leak-demo.heapsnapshot)
 打开 Chrome `chrome://inspect/#devices` 的 Node DevTools，在 Memory 标签页加载这个文件。
 这张图片是加载好的 snapshot，其中 9.7MB 是当时程序占用的内存。
-![](loaded-heap-snapshot.png)
+![loaded-heap-snapshot](/attachments/loaded-heap-snapshot.png)
 
 ## 查看和分析 snapshot
 > 参考 https://developer.chrome.com/docs/devtools/memory-problems/heap-snapshots/#view_snapshots 来了解查看界面各个部分的含义和功能。

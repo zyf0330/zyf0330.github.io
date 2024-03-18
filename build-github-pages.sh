@@ -4,6 +4,7 @@ set -e
 
 OBSIDIAN_ROOT=$HOME/data/OneDrive/Documents/obsidian/我的
 TARGET="$PWD/_posts"
+TARGET_ATTACHMENTS="$PWD"
 
 mkdir -p $TARGET
 
@@ -12,7 +13,7 @@ mkdir -p $TARGET
   file "$category_path" | grep directory >/dev/null || continue
 
   if [ "$category" = attachments ]; then
-    cp -r "$category_path" $TARGET
+    cp -r "$category_path" $TARGET_ATTACHMENTS
   else
     \rm -rf "$TARGET/$category"
     mkdir -p "$TARGET/$category"
@@ -26,7 +27,9 @@ date: $birthtime
 category: $category
 ---
 
-$(\cat "$category_path/$post")
+$(\cat "$category_path/$post" \
+  | sed "s/](..\/attachments\//](\/attachments\//g"
+)
 " >"$TARGET/$category/$birthtime-$post"
 
     done
